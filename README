@@ -1,0 +1,3 @@
+logtail.js is a Node.js program for *nix platforms. It watches a set of directories for files that match a name pattern. For each file that matches, it will be tailed. Each directory is continually checked for new files created that match the pattern. All output is highlighted using the colors module.
+
+settings.js contains the directories to watch, the file name pattern, and the colors for matching lines.
